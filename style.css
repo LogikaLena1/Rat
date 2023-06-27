@@ -64,7 +64,8 @@ footer p {
     color: #FFF;
 font-size: 30px;
 font-family: Inria Serif;
-padding: 5px 15px;
+padding: 5px;
+padding-left: 15px;
 }
 .pic{
     width: 120px;
