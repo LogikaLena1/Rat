@@ -1,6 +1,10 @@
 body {
     font-family: sans-serif;
 }
+main{
+ padding-left: 60px;
+    padding-right: 60px;
+}
 header{
 
 background: #966BD6;
@@ -31,6 +35,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 64px;
 line-height: 77px;
+margin: 10px;
 
 color: #052A6E;
 text-align: center;
@@ -43,7 +48,7 @@ img{
     width: 283px;
 height: 240px;
 }
-ol { 
+ul { 
 font-family: 'Inria Serif';
 font-style: normal;
 font-weight: 400;
@@ -61,7 +66,43 @@ font-size: 30px;
 font-family: Inria Serif;
 padding: 0px 15px;
 }
-p img {
-flex-shrink: 0;
+.pic{
+    width: 120px;
+height: 80px;
 text-align: right;
+}
+h2 {
+    color: #052A6E;
+font-size: 40px;
+font-family: Inria Serif;
+margin: 10px;
+}
+.lict1 {
+border-radius: 16px;
+background: linear-gradient(196deg, rgba(246, 227, 55, 0.25) 13.08%, rgba(255, 241, 115, 0.69) 85.00%);
+    list-style: url(circle.png);
+    
+}
+.lict2{
+background-color: white;
+border-left: 10px dashed #FFF173;
+    list-style:url(star.png);
+}
+.rat2 {
+    width: 200px;
+height: 280px;
+border-radius: 30px;
+margin-left: 35px;
+}
+.rat1 {
+  width: 349px;
+height: 219px;
+border-radius: 62px;
+margin-left: 35px;
+}
+.rat3 {
+width: 270px;
+height: 215px;
+border-radius: 88px;
+margin-left: 35px;
 }
